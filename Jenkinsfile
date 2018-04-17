@@ -35,6 +35,7 @@ node {
     sh 'docker logout'
    }
    
+ /***
    stage 'notifyKubernetes'
      try{
       sh "kubectl delete deployment coe-spring-data-h2-rest"
@@ -50,5 +51,5 @@ node {
       sh "sleep 3s"
       sh "kubectl run --image=snyamars007/coe-spring-data-h2-rest:latest coe-spring-data-h2-rest  --port=8080"
       sh "kubectl expose deployment coe-spring-data-h2-rest"
-  
+  ****/
 }//end of node
