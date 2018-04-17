@@ -1,6 +1,6 @@
 FROM marvambass/oracle-java8
 RUN mkdir -p /usr/src/myapp
-WORKDIR .
+#WORKDIR .
 ADD /var/jenkins_home/workspace/MicroserviceDemo/target/coe-spring-data-cassandra-rest-0.0.1-SNAPSHOT.jar /usr/src/myapp/coe-spring-data-cassandra-rest-0.0.1-SNAPSHOT.jar
 #WORKDIR /usr/src/myapp
 VOLUME /tmp
