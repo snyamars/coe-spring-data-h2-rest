@@ -9,5 +9,5 @@ spring:
         healthCheckPath: /health
         healthCheckInterval: 15s
         hostname: 35.153.35.158
-        port: 30330
+        port: 80
     
