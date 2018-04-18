@@ -101,7 +101,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		    <version>1.0.2.RELEASE</version>
 		</dependency>
 		
-		 <!-- to enable ELK log monitoring --- -->
+		 
 	    	<!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
 			<dependency>
 			    <groupId>ch.qos.logback</groupId>
